@@ -1,10 +1,11 @@
+package ex1008;
+
 import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio8 {
 
 	public static void main(String[] args) {
-		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner (System.in);
 		
@@ -18,9 +19,7 @@ public class Exercicio8 {
 		salario = valor * horas;
 		
 		System.out.println("NUMBER = " + number); 
-		System.out.printf("SALARY = U$ %.2f", salario);
-		
-		
+		System.out.printf("SALARY = U$ %.2f%n", salario);
 	}
 
 }
