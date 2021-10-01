@@ -1,6 +1,6 @@
 package ex1002;
 
-//import java.text.DecimalFormat;
+
 import java.util.Scanner;
 
 public class Exercicio2 {
@@ -18,7 +18,6 @@ public class Exercicio2 {
 		
 		area = raio * raio * 3.14159;
 		
-		//DecimalFormat df = new DecimalFormat(".####");
 		
 		System.out.printf("A =  %.4f\n",  area);
 
