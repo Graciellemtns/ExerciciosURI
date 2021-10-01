@@ -1,20 +1,21 @@
-package ex0001;
+package ex1004;
 
 import java.util.Scanner;
 
-public class Exercicio1 {
+public class Exercicio4 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
 		
-		int a, b, x;
+		int a, b, prod;
 		
 		a = sc.nextInt();
 		b = sc.nextInt();
 		
-		x = a + b;
+		prod = a * b;
 		
-		System.out.println("X = " + x);
+		System.out.println("PROD = " + prod);
+
 	}
 
 }
