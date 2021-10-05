@@ -16,7 +16,7 @@ public class Ex1012 {
 		c = sc.nextDouble();
 
 		triangulo = (a*c)/2;
-		circulo = Math.PI * c * c;
+		circulo = 3.14159 * c * c;
 		trapezio =((a + b)*c)/2;
 		quadrado = b * b;
 		retangulo = a *b;
